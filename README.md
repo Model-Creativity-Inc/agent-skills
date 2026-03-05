@@ -12,6 +12,23 @@ A collection of AI agent skills designed for [Agent Zero](https://github.com/frd
 | [seats-award-search-by-date](./seats-award-search-by-date/) | Day-by-day award flight availability search across all mileage programs with HTML dashboard, calendar heatmaps, and optional 4K infographic (**requires paid Seats.aero Pro subscription**) |
 | [use-opencode](./use-opencode/) | OpenCode CLI integration for surgical file edits, refactoring, and code analysis in single-turn non-interactive mode |
 
+## Venice Skills
+
+The `venice-skills/` directory contains skills that wrap the [Venice.ai](https://venice.ai/) API. All require the `VENICE_API_KEY` environment variable.
+
+| Skill | Description |
+|-------|-------------|
+| [venice-chat](./venice-skills/venice-chat/) | Chat with Venice.ai LLMs with vision, reasoning mode, and web search |
+| [venice-image-gen](./venice-skills/venice-image-gen/) | Generate images from text prompts (1K/2K/4K, multiple formats and aspect ratios) |
+| [venice-list-image-models](./venice-skills/venice-list-image-models/) | List available image generation models with pricing and constraints |
+| [venice-list-text-models](./venice-skills/venice-list-text-models/) | List available LLM models with capabilities, context windows, and pricing |
+| [venice-list-video-models](./venice-skills/venice-list-video-models/) | List available video models with durations, resolutions, and audio capabilities |
+| [venice-tts](./venice-skills/venice-tts/) | Text-to-speech with 50+ voices across 9 languages |
+| [venice-video-generate](./venice-skills/venice-video-generate/) | Full-lifecycle video generation (queue + poll + retrieve + save) |
+| [venice-video-queue](./venice-skills/venice-video-queue/) | Queue a video for generation (text/image/video-to-video) |
+| [venice-video-quote](./venice-skills/venice-video-quote/) | Get cost estimates for video generation with parameter validation |
+| [venice-video-retrieve](./venice-skills/venice-video-retrieve/) | Retrieve and download a queued video by polling until complete |
+
 ## Structure
 
 Each skill follows a consistent layout:
