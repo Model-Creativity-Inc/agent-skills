@@ -2,6 +2,8 @@
 
 A collection of AI agent skills designed for [Agent Zero](https://github.com/frdel/agent-zero) and compatible AI systems such as Claude Code. Each skill is a self-contained module with its own script(s) and documentation.
 
+Contributions are welcome! If you have an idea for a new skill or an improvement to an existing one, feel free to open an issue or submit a pull request.
+
 ## Skills
 
 | Skill | Description |
