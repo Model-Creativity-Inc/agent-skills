@@ -7,6 +7,7 @@ A collection of skills that wrap the [Venice.ai](https://venice.ai/) API for cha
 | Skill | Description |
 |-------|-------------|
 | [venice-chat](./venice-chat/) | Chat with Venice.ai LLMs with vision, reasoning mode, and web search |
+| [venice-chat-benchmark](./venice-chat-benchmark/) | Benchmark Venice.ai chat models with tool_choice stress testing, timing stats, and 4K infographic |
 | [venice-image-gen](./venice-image-gen/) | Generate images from text prompts (1K/2K/4K, multiple formats and aspect ratios) |
 | [venice-tts](./venice-tts/) | Text-to-speech with 50+ voices across 9 languages |
 | [venice-video-generate](./venice-video-generate/) | Full-lifecycle video generation (queue + poll + retrieve + save) |

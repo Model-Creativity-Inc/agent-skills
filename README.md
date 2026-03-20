@@ -21,6 +21,7 @@ The `venice-skills/` directory contains skills that wrap the [Venice.ai](https:/
 | Skill | Description |
 |-------|-------------|
 | [venice-chat](./venice-skills/venice-chat/) | Chat with Venice.ai LLMs with vision, reasoning mode, and web search |
+| [venice-chat-benchmark](./venice-skills/venice-chat-benchmark/) | Benchmark Venice.ai chat models with tool_choice stress testing, timing stats, and 4K infographic |
 | [venice-image-gen](./venice-skills/venice-image-gen/) | Generate images from text prompts (1K/2K/4K, multiple formats and aspect ratios) |
 | [venice-list-image-models](./venice-skills/venice-list-image-models/) | List available image generation models with pricing and constraints |
 | [venice-list-text-models](./venice-skills/venice-list-text-models/) | List available LLM models with capabilities, context windows, and pricing |
